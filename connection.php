@@ -3,6 +3,7 @@
   if(!$conn)
   {
   	echo "connection not stablished";
+    //addd new line
   }
 
  ?>
