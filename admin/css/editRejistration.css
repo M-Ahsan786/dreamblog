@@ -1,0 +1,75 @@
+body{
+	background-image:url(editBG.jpg);
+	background-attachment: fixed;
+}
+
+.login-form {
+	margin: 130px 0px;
+	margin-right: 50px;
+	float: right;
+	width: 650px;
+	color: #fff;
+	padding:30px;
+	background-color:grey;
+	border-radius: 20px;
+	box-shadow: 20px 15px #00000070;
+	background-attachment: fixed !important;
+
+}
+input{
+	text-align: center;
+}
+input::placeholder{
+	text-align: center;
+	display: none;
+}
+a
+{
+	color:white;
+}
+.login-form h1 {
+font-size: 40px;
+text-align: center;
+text-transform: uppercase;
+margin: 40px 0;
+
+}
+.login-form p {
+	font-size: 20px;
+	margin: 15px 0;
+ 
+}
+
+.login-form input {
+
+	font-size: 16px;
+	width: 100%;
+	width: 100%; 
+	padding: 15px 0px;
+	margin: 10px 0px;
+	border: 0;
+	outline: none;
+	border-radius: 5px;
+}
+
+.login-form button {
+	font-size: 18px;
+	font-weight: bold;
+	margin: 20px 0;
+	padding: 10px 15px;
+	width: 48%;
+	border-radius: 5px;
+	border: 0;
+	color:white;
+	background-color: #dc3545;
+}
+
+.type{
+	width: 100%;
+	padding: 20px 40px;
+	border-radius: 5px;
+	text-align: center;
+}
+.type option{
+	text-align: center;	
+}
